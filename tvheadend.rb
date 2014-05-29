@@ -48,7 +48,7 @@ class Tvheadend < Formula
       <key>ProgramArguments</key>
         <array>
           <string>#{bin}/tvheadend</string>
-          <string>-c/tvheadend</string>
+          <string>-c</string>
           <string>#{var}/tvheadend</string>
         </array>
       <key>Disabled</key><false/>
