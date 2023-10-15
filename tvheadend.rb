@@ -2,7 +2,7 @@ require "formula"
 
 class Tvheadend < Formula
   homepage "http://www.tvheadend.org"
-  head 'git://github.com/tvheadend/tvheadend.git'
+  head 'https://github.com/tvheadend/tvheadend.git'
   
   depends_on 'pkg-config' => :build
   depends_on 'uriparser'
